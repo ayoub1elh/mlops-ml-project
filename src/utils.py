@@ -1,4 +1,10 @@
 # src/utils.py
+"""
+Utility functions for logging configuration.
+
+This module provides logging setup functionality for ML pipeline scripts.
+All logs are written to timestamped files and displayed in console.
+"""
 import logging
 from pathlib import Path
 from datetime import datetime
