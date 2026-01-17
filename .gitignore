@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & artifacts (ne pas versionner dans Git)
+data/
+artifacts/
+logs/*.log
+
+# OS
+.DS_Store
+Thumbs.db
